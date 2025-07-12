@@ -3,7 +3,7 @@ import hamIcon from '../assets/more.png';
 import exitIcon from '../assets/reject.png'
 export default function Navbar() {
     const [click, setClick] = useState(false);
-    let hamburgerClasses = 'md:flex items-center gap-3 text-sm absolute right-[-500px] hidden transition-all duration-500 ease-in-out text-[#F45D01]';
+    let hamburgerClasses = 'md:flex items-center gap-3 text-sm hidden transition-all duration-500 ease-in-out text-[#F45D01]';
     if (click) {
         hamburgerClasses = ' absolute top-[100px] bg-[#2d2d2d] right-0 shadow-lg text-md w-full flex flex-col justify-center items-center gap-[20px] py-[10px] rounded-md h-1/2 text-[#F45D01]';
     }
