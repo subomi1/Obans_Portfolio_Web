@@ -47,7 +47,7 @@ export default function Projects() {
     let filteredData = data?.filter((Idata) => Idata.archived === false);
     console.log(filteredData);
     return(
-        <section className="w-full lg:p-10 h-fit mt-10 sm:p-3">
+        <section className="w-full lg:p-10 h-fit mt-10 sm:p-3" id="project">
             <h1 className="poppins font text-[#F5F5F5] text-[clamp(1.5rem,4vw,2.5rem)] sm:text-[clamp(1.8rem,4vw,2.75rem)]">Open Source Projects</h1>
             {filteredData?.map((data) => (
                 <div className="flex justify-center" key={data.id}>

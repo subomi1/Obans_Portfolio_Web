@@ -38,7 +38,7 @@ export default function Hero() {
                         </a>
                     </div>
                     <div className="rightbutton">
-                        <button className='bg-[#F45D01] text-[1rem] font-bold mr-12 py-[0.813rem] px-[1.375rem] rounded-md text-[#FFFFFF] cursor-pointer border-[1px] border-[#F45D01] hover:bg-transparent transition-all duration-500 ease-in-out'>
+                        <button id='resume' className='bg-[#F45D01] text-[1rem] font-bold mr-12 py-[0.813rem] px-[1.375rem] rounded-md text-[#FFFFFF] cursor-pointer border-[1px] border-[#F45D01] hover:bg-transparent transition-all duration-500 ease-in-out'>
                             Download My Resume
                         </button>
                     </div>

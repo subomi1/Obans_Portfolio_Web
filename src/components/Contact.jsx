@@ -1,6 +1,6 @@
 export default function Contact() {
     return(
-        <section className="w-full p-10 h-fit mt-10 contact">
+        <section className="w-full p-10 h-fit mt-10 contact" id="contact">
             <h1 className="poppins font text-[#F5F5F5] text-[clamp(1.5rem,4vw,2.5rem)] sm:text-[clamp(1.8rem,4vw,2.75rem)]">Reach Out to me! </h1>
             <p className='poppins text-[#B0B0B0] mt-10 text-2xl'>Want to discuss a project or just want to say hi? My Inbox is open to all.</p>
             <p className="poppins text-[#B0B0B0] lg:text-3xl mt-4 sm:text-lg">"Subomi.obans3@gmail.com"</p>

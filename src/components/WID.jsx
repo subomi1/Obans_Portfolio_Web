@@ -2,7 +2,7 @@ import Devimage from '../assets/undraw_web-developer_ggt0.svg';
 
 export default function WID() {
     return(
-        <section className='w-full p-6 sm:p-8 lg:p-10 h-fit flex flex-wrap gap-10 justify-center lg:flex-nowrap'>
+        <section className='w-full p-6 sm:p-8 lg:p-10 h-fit flex flex-wrap gap-10 justify-center lg:flex-nowrap' id='wid'>
             <img src={Devimage} alt="image of a web developer" className='w-full sm:w-2/3 md:w-1/2 max-w-[500px]'/>
             <div className="rightside p-4 sm:p-5 max-w-xl">
                 <h1 className='poppins font text-[#F5F5F5] text-[clamp(1.5rem,4vw,2.5rem)] sm:text-[clamp(1.8rem,4vw,2.75rem)]'>What i do</h1>

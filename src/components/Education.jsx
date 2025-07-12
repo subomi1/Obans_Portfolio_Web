@@ -1,7 +1,7 @@
 import EduData from '../json/EduData.json' ;
 export default function Education() {
     return(
-        <section className="w-full p-10 h-fit mt-10">
+        <section className="w-full p-10 h-fit mt-10" id='education'>
             <h1 className="poppins font text-[#F5F5F5] text-[clamp(1.5rem,4vw,2.5rem)] sm:text-[clamp(1.8rem,4vw,2.75rem)] ">Education</h1>
                 {EduData.map((data) => {
                     return(
