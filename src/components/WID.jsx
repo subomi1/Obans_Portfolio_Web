@@ -2,12 +2,12 @@ import Devimage from '../assets/undraw_web-developer_ggt0.svg';
 
 export default function WID() {
     return(
-        <section className='w-full p-10 h-fit flex gap-10'>
-            <img src={Devimage} alt="image of a web developer" className='w-1/2'/>
-            <div className="rightside">
-                <h1 className='text-4xl poppins font text-[#F5F5F5]'>What i do</h1>
-                <p className='poppins uppercase text-[#B0B0B0] mt-10'>Enthusiastic frontend developer who has an ambition for learning new things while mastering the basics</p>
-                <div className="icons flex items-center gap-5 mt-10">
+        <section className='w-full p-6 sm:p-8 lg:p-10 h-fit flex flex-wrap gap-10 justify-center lg:flex-nowrap'>
+            <img src={Devimage} alt="image of a web developer" className='w-full sm:w-2/3 md:w-1/2 max-w-[500px]'/>
+            <div className="rightside p-4 sm:p-5 max-w-xl">
+                <h1 className='poppins font text-[#F5F5F5] text-[clamp(1.5rem,4vw,2.5rem)] sm:text-[clamp(1.8rem,4vw,2.75rem)]'>What i do</h1>
+                <p className='poppins uppercase text-[#B0B0B0] mt-6 sm:mt-8 text-sm sm:text-base'>Enthusiastic frontend developer who has an ambition for learning new things while mastering the basics</p>
+                <div className="icons flex items-center flex-wrap gap-4 sm:gap-5 mt-6 sm:mt-10">
                     <svg viewBox="0 0 128 128" className='w-14'>
                         <path fill="#E44D26" d="M27.854 116.354l-8.043-90.211h88.378l-8.051 90.197-36.192 10.033z"></path><path fill="#F16529" d="M64 118.704l29.244-8.108 6.881-77.076H64z"></path><path fill="#EBEBEB" d="M64 66.978H49.359l-1.01-11.331H64V44.583H36.257l.264 2.969 2.72 30.489H64zm0 28.733l-.049.013-12.321-3.328-.788-8.823H39.735l1.55 17.372 22.664 6.292.051-.015z"></path><path d="M28.034 1.627h5.622v5.556H38.8V1.627h5.623v16.822H38.8v-5.633h-5.143v5.633h-5.623V1.627zm23.782 5.579h-4.95V1.627h15.525v5.579h-4.952v11.243h-5.623V7.206zm13.039-5.579h5.862l3.607 5.911 3.603-5.911h5.865v16.822h-5.601v-8.338l-3.867 5.981h-.098l-3.87-5.981v8.338h-5.502V1.627zm21.736 0h5.624v11.262h7.907v5.561H86.591V1.627z"></path><path fill="#fff" d="M63.962 66.978v11.063h13.624L76.302 92.39l-12.34 3.331v11.51l22.682-6.286.166-1.87 2.6-29.127.27-2.97h-2.982zm0-22.395v11.064h26.725l.221-2.487.505-5.608.265-2.969z"></path>
                     </svg>

@@ -2,10 +2,10 @@ import wave from '../assets/wired-flat-2716-logo-clubhouse-hover-pinch (3).gif';
 
 export default function Hero() {
     return(
-        <section className='w-full p-10 h-fit flex items-center'>   
+        <section className='w-full p-10 h-fit flex items-center flex-wrap justify-between'>   
             <div className="leftside">
-                <h1 className="text-[3.2rem] font-semibold text-[#FFFFFF] poppins flex gap-3 items-center">Hi all, i'm Obans <img src={wave} alt="" className='w-12 rounded-full'/></h1>
-                <p className='w-[40%] poppins font-[400] text-[1.3rem] text-[#B0B0B0] leading-normal'>I'm a passionate front end developer having the experience of building web applications with Html / Css / Javascript and some other cool libraries and frameworks.</p>
+                <h1 className="font-semibold text-[#FFFFFF] poppins flex gap-3 items-center sm:text-4xl lg:text-[3.2rem]">Hi all, i'm Obans <img src={wave} alt="" className='w-12 rounded-full'/></h1>
+                <p className='poppins font-[400] text-[1.3rem] text-[#B0B0B0] leading-normal'>I'm a passionate front end developer <br /> having the experience of building web applications with <br /> Html / Css / Javascript <br /> and some other cool libraries and frameworks.</p>
                 <div className="icons mt-14 flex items-center gap-4">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
@@ -28,8 +28,8 @@ export default function Hero() {
                         </svg>
                     </a>
                 </div>
-                <div className="herobuttons mt-14 poppins flex items-center text-center">
-                    <div className="leftbutton">
+                <div className="herobuttons mt-14 poppins flex items-center text-center flex-wrap">
+                    <div className="leftbutton mb-7">
                         <a href='#contact' className='bg-[#F45D01] text-[1rem] font-bold mr-12 py-[0.813rem] px-[1.375rem] rounded-md text-[#FFFFFF] cursor-pointer border-[1px] border-[#F45D01] hover:bg-transparent transition-all duration-500 ease-in-out'>
                             Contact Me
                         </a>
@@ -40,6 +40,9 @@ export default function Hero() {
                         </button>
                     </div>
                 </div>
+            </div>
+            <div className="rightSide">
+                <h1>skcbskhcds</h1>
             </div>
         </section>
     );

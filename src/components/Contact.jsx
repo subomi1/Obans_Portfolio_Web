@@ -3,7 +3,7 @@ export default function Contact() {
         <section className="w-full p-10 h-fit mt-10 contact">
             <h1 className="text-4xl poppins font text-[#F5F5F5]">Reach Out to me! </h1>
             <p className='poppins text-[#B0B0B0] mt-10 text-2xl'>Want to discuss a project or just want to say hi? My Inbox is open to all.</p>
-            <p className="poppins text-[#B0B0B0] text-3xl mt-4">"Subomi.obans3@gmail.com"</p>
+            <p className="poppins text-[#B0B0B0] lg:text-3xl mt-4 sm:text-lg">"Subomi.obans3@gmail.com"</p>
             <div className="icons mt-8 flex items-center gap-4">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
