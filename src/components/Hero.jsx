@@ -4,7 +4,10 @@ export default function Hero() {
     return(
         <section className='w-full p-10 h-fit flex items-center flex-wrap justify-between'>   
             <div className="leftside">
-                <h1 className="font-semibold text-[#FFFFFF] poppins flex gap-3 items-center sm:text-4xl lg:text-[3.2rem]">Hi all, i'm Obans <img src={wave} alt="" className='w-12 rounded-full'/></h1>
+                <h1 className="font-semibold text-white poppins flex flex-wrap gap-3 items-center text-2xl sm:text-4xl lg:text-[3.2rem]">
+                    Hi all, I'm Obans
+                    <img src={wave} alt="waving hand" className="w-6 sm:w-10 lg:w-12 rounded-full" />
+                </h1>
                 <p className='poppins font-[400] text-[1.3rem] text-[#B0B0B0] leading-normal'>I'm a passionate front end developer <br /> having the experience of building web applications with <br /> Html / Css / Javascript <br /> and some other cool libraries and frameworks.</p>
                 <div className="icons mt-14 flex items-center gap-4">
                     <a href="#" target="_blank" rel="noopener noreferrer">
