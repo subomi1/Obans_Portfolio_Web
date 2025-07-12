@@ -50,8 +50,8 @@ export default function Projects() {
         <section className="w-full lg:p-10 h-fit mt-10 sm:p-3">
             <h1 className="poppins font text-[#F5F5F5] text-[clamp(1.5rem,4vw,2.5rem)] sm:text-[clamp(1.8rem,4vw,2.75rem)]">Open Source Projects</h1>
             {filteredData?.map((data) => (
-                <div className="flex justify-center">
-                <div className="projectCard mt-6 hover:border-b-2 hover:border-b-[#F45D01] transition-all duration-700 ease-in-out rounded-[20px] p-10 customShadow w-full" key={data.id}>
+                <div className="flex justify-center" key={data.id}>
+                <div className="projectCard mt-6 hover:border-b-2 hover:border-b-[#F45D01] transition-all duration-700 ease-in-out rounded-[20px] p-10 customShadow w-full">
                     <div className="flexIcon flex items-center gap-3">
                         <img src={imgIcon} alt="" className="w-6"/>
                         <h1 className="text-xl font-semibold poppins mt-2 text-[#B0B0B0]">{data.name}</h1>
